@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&family=Rubik:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&family=Rubik:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&family=Rubik&family=Song+Myung&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  padding: 44px 120px;
+  background-color: #f6f6f9;
+}
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.currency-list {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.currency-item {
+  display: flex;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #888888;
+}
+.currency-item p {
+  color: #092247;
+  margin-right: 5px;
+}
+.logo {
+  background-color: #ffffff;
+  width: 250px;
+  height: 40px;
+  margin-right: 18px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.search,
+.language {
+  background-color: #fff;
+  padding: 3px 6px;
+}
+.btn {
+  background: linear-gradient(90deg, #1e96c8 15.07%, #37aee2 85.96%);
+  border-radius: 5px;
+  display: flex;
+  padding: 10px;
+}
+.btn img {
+  margin-right: 7px;
+}
+.navbar-list {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+  border-radius: 5px;
+  padding: 21px 24px;
+  gap: 10px;
+}
+.navbar-item {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  color: #515151;
+}
+.header-banner {
+  margin-top: 18px;
+}
+.header-banner img {
+  width: 100%;
+}
+
+.main {
+  display: flex;
+}
+.prezident-img {
+  width: 600px;
+  height: 1080px;
+  margin-top: 100px;
+  margin-right: 130px;
+}
+.prezident-img p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 20px;
+}
+.main-table-p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 21px;
+}
+.main-table {
+  display: flex;
+}
+
+.a {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin: 10px;
+  font-size: 18px;
+}
+.новости {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+.main-article {
+  margin-top: 15px;
+}
+.main-article-text {
+  margin: 15px;
+  margin-bottom: 20px;
+  width: 458px;
+  height: 520px;
+  border-radius: 5px;
+  background: #f6f6f9;
+}
+.main-article-text p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  width: 350px;
+  margin-bottom: 10px;
+}
+.main-article-text span {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+.main-article-text img {
+  margin-top: 20px;
+  margin-bottom: 18px;
+}
+.Новости-по-теме {
+  display: flex;
+  justify-content: space-between;
+  width: 1150px;
+}
+
+.meeting {
+  width: 300px;
+  margin-top: 10px;
+}
+.meeting h4 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.meeting span {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+.footor {
+  margin-top: 50px;
+  background-color: #295093;
+  color: #fff;
+  width: 100%;
+  height: 250px;
+}
+.footor-header {
+  display: flex;
+  padding-top: 20px;
+}
+.footor-header span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  margin-right: 100px;
+  margin-top: 8px;
+  color: white;
+  width: 180px;
+  height: 40px;
+  background: #133c82;
+  border-radius: 5px;
+}
+.footor-img {
+  color: #fff;
+}
+.footor-img h3 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+.podpisatsiya {
+  display: flex;
+  background-color: #fff;
+  color: #295093;
+  vertical-align: middle;
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 60px;
+}
+.podpisatsiya p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 10px;
+}
+.footor-line {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.footor-div {
+  display: flex;
+}
+.footor-div h4 {
+  margin-bottom: 10px;
+}
+.footor-div-text {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.footor-div-text-1 {
+  width: 360px;
+}
+.footor-div-text-1 p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+.footor-div-text-2 {
+  width: 160px;
+  margin-left: 160px;
+  margin-right: 120px;
+}
+.footor-div-text-2 h4 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+.footor-div-text-3 {
+  width: 220px;
+}
+.footor-div-text-3 h4 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
