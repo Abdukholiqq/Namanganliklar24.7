@@ -34,7 +34,7 @@ function renderObj(data) {
         <img  style="min-width: 300px ; max-width:300px" height="280" src="${element.avatar}"></img>
         <div>
           <h3 class="text-secondary fs-4">${element.title}<h3/>
-          <p class="text-secondary fs-5">${element.subtitle}<p/>
+          <p class="text-secondary fs-6">${element.subtitle}<p/>
           <p class="text-secondary mb-2 fs-6"> ${element.createdAt}<p/>
          </div>
          </div>
