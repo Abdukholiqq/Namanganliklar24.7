@@ -52,7 +52,7 @@ const recognition = new webkitSpeechRecognition();
     recognition.maxAlternatives = 1;
 
     Theme.onclick = function (){
-      alert("Iltimos  Black  deb aytmang");
+      alert("Iltimos  Black , Grey va Gray deb aytmang");
         recognition.start();
         console.log('Ready to receive a color command.');
     };
